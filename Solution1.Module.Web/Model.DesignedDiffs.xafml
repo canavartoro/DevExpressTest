@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="ExpressAppLogo">
+  <ActionDesign>
+    <ActionToContainerMapping>
+      <ActionContainer Id="containerBelgeKontrol" IsNewNode="True">
+        <ActionLink ActionId="actionKontrol" IsNewNode="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="13.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="13.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Solution1.Module.BusinessObjects.Ogrenci_DetailView">
+      <Items>
+        <ActionContainerViewItem Id="@467693ca-10e1-4068-a090-9e861ba0be52" ActionContainer="containerBelgeKontrol" Caption="@467693ca-10e1-4068-a090-9e861ba0be52(25)" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="" Caption="Main" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="43" ImageName="" Caption="SimpleEditors" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutGroup Id="Ogrenci" RelativeSize="40" ImageName="" Caption="Ogrenci" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutGroup Id="Autoa540fb56-2e64-4bb9-8a4e-5e7278f07a3c" ShowCaption="False" Caption="Autoa540fb56-2e64-4bb9-8a4e-5e7278f07a3c(4)" Direction="Horizontal" Index="0" RelativeSize="33" IsNewNode="True">
+                <LayoutItem Id="@467693ca-10e1-4068-a090-9e861ba0be52" ViewItem="@467693ca-10e1-4068-a090-9e861ba0be52" SizeConstraintsType="Default" Index="0" RelativeSize="65" IsNewNode="True" />
+                <LayoutItem Id="OgrenciAdi" ViewItem="OgrenciAdi" SizeConstraintsType="Default" Index="1" RelativeSize="34" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="OgrenciSoyadi" SizeConstraintsType="Default" RelativeSize="20" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+              <LayoutItem Id="Telefon1" SizeConstraintsType="Default" RelativeSize="20" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+              <LayoutItem Id="Telefon2" SizeConstraintsType="Default" RelativeSize="25" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+              <LayoutItem Id="OgrenciAdi" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="Tablo" RelativeSize="47" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutGroup Id="Tablo_col1" RelativeSize="43" ImageName="" Caption="Tablo_col1" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+                <LayoutItem Id="Aciklama" SizeConstraintsType="Default" RelativeSize="28" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Aciklama2" SizeConstraintsType="Default" RelativeSize="21" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="OlusturanKullanici" SizeConstraintsType="Default" RelativeSize="21" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="OlusturmaTarihi" SizeConstraintsType="Default" RelativeSize="28" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+              </LayoutGroup>
+              <LayoutGroup Id="Tablo_col2" RelativeSize="52" ImageName="" Caption="Tablo_col2" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+                <LayoutItem Id="GüncelleyenKullanici" SizeConstraintsType="Default" RelativeSize="28" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="GuncellemeTarihi" SizeConstraintsType="Default" RelativeSize="21" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+                <LayoutItem Id="Durum" SizeConstraintsType="Default" RelativeSize="50" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" RelativeSize="12" ImageName="" Caption="Oid" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+              <LayoutItem Id="Oid" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="4" ImageName="" Caption="Adres" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutItem Id="Adres" SizeConstraintsType="Default" RelativeSize="100" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+          </LayoutGroup>
+          <LayoutGroup Id="Belgeler_Group" Direction="Vertical" RelativeSize="51" ImageName="ModelEditor_DetailView" Caption="Belgeler" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+            <LayoutItem Id="Belgeler" SizeConstraintsType="Default" RelativeSize="88" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
